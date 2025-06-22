@@ -1,0 +1,38 @@
+
+/* inter font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-inter:  "Inter", sans-serif
+}
+
+
+#header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  transition: background .5s ease;
+  z-index: 50;
+}
+#header.active {
+  background-color: #d5f8f6;
+  border-bottom: 2px solid #008080;
+}
+
+.mobileNav {
+  position: absolute;
+  top: 100px;
+  right: -110%;
+  max-width: 350px;
+  width: 100%;
+  height: 100dvh;
+  background-color: #2b2b2b;
+  padding: 3rem 2rem;
+  transition: right .5s ease;
+}
+
+.mobileNav.active {
+  right: 0%;
+}

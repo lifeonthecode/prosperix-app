@@ -24,7 +24,7 @@ const Contact = () => {
 
                     {/* contact image wrapper  */}
                     <div className='max-w-[588px] w-full min-h-[462px] h-full'>
-                        <img src="../../../public/contact_image.png" className='w-full h-full object-cover' alt="contact image" />
+                        <img src="/contact_image.png" className='w-full h-full object-cover' alt="contact image" />
                     </div>
                 </div>
 

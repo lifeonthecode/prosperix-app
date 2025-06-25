@@ -17,7 +17,7 @@ const Banner = () => {
             </div>
             {/* banner right wrapper  */}
             <div className='max-w-[628px] w-full min-h-[663px] h-full'>
-                <img src="/public/banner_image.png" className='w-full h-full object-cover' alt="banner image" />
+                <img src="../../../public/banner_image.png" className='w-full h-full object-cover' alt="banner image" />
             </div>
         </div>
     );

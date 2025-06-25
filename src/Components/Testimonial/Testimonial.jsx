@@ -19,7 +19,7 @@ const Testimonial = () => {
                 <div className="min-w-[420px] w-full min-h-[403px] bg-white border-[#d5dddd] border-2 rounded-l-4xl rounded-br-4xl p-6 space-y-6 flex flex-col justify-center">
                     <div className="flex items-center gap-8">
                         <div className="p-1 bg-[#e8e8e6] rounded-full flex items-center justify-center">
-                            <img className="w-[75px] h-[75px] object-cover rounded-full" src="/public/avatar_1.png" alt="grace turner" />
+                            <img className="w-[75px] h-[75px] object-cover rounded-full" src="../../../public/avatar_1.png" alt="grace turner" />
                         </div>
                         <div className="flex flex-col gap-3">
                             <h4 className="text-2xl text-[#1e1e1e] font-inter font-bold capitalize">grace turner</h4>
@@ -55,7 +55,7 @@ const Testimonial = () => {
                 <div className="min-w-[420px] w-full min-h-[403px] bg-white border-[#d5dddd] border-2 rounded-l-4xl rounded-br-4xl p-6 space-y-6 flex flex-col justify-center">
                     <div className="flex items-center gap-8">
                         <div className="p-1 bg-[#e8e8e6] rounded-full flex items-center justify-center">
-                            <img className="w-[75px] h-[75px] object-cover rounded-full" src="/public/avatar_3.png" alt="alex walker" />
+                            <img className="w-[75px] h-[75px] object-cover rounded-full" src="../../../public/avatar_3.png" alt="alex walker" />
                         </div>
                         <div className="flex flex-col gap-3">
                             <h4 className="text-2xl text-[#1e1e1e] font-inter font-bold capitalize">alex walker</h4>

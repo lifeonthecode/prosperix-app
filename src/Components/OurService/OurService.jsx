@@ -8,7 +8,8 @@ const OurService = () => {
         <div className='md:flex items-center justify-between md:space-y-0 space-y-10 pb-20'>
             {/* services left wrapper  */}
             <div className='max-w-[659px] w-full min-h-[644px] bg-[#e0f8f8] rounded-l-4xl rounded-br-4xl flex items-center justify-center'>
-                <img src="/public/service_image.png" className='max-w-[558px] w-full min-h-[561px] h-full object-cover' alt="services image" />
+                <img src="../../../public/service_image.png" className='max-w-[558px] w-full min-h-[561px] h-full object-cover' alt="services image" />
+                {/* <img src="/public/service_image.png" className='max-w-[558px] w-full min-h-[561px] h-full object-cover' alt="services image" /> */}
             </div>
 
             {/* services right wrapper  */}

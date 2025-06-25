@@ -22,7 +22,8 @@ const Expertise = () => {
 
             {/* expertise right wrapper  */}
             <div className='max-w-[659px] w-full min-h-[644px] bg-[#e0f8f8] rounded-l-4xl rounded-br-4xl flex items-center justify-center'>
-                <img src="/public/expertise_image.png" className='max-w-[558px] w-full min-h-[561px] h-full object-cover' alt="expertise image" />
+                <img src="../../../public/expertise_image.png" className='max-w-[558px] w-full min-h-[561px] h-full object-cover' alt="expertise image" />
+                {/* <img src="/public/expertise_image.png" className='max-w-[558px] w-full min-h-[561px] h-full object-cover' alt="expertise image" /> */}
             </div>
         </div>
     );
